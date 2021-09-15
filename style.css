@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+}
+header{
+    background-color: goldenrod;
+}
+
+nav{
+    background-color: crimson;
+    
+}
+.grid{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    background-color: rgb(234, 236, 230);    
+}
+
+aside {
+    background-color: rgb(34, 34, 184);
+    padding: 0px 10px 0px 10px;
+}
+
+section {
+    background-color: blueviolet;
+    margin-left: 0px;
+    padding-bottom: 54px;
+}
+footer{
+    background-color:brown;
+}
+
+@media (max-width: 100px) {
+    header {
+        background-color: lightcoral;
+    }
+}
