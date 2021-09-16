@@ -2,12 +2,33 @@
     margin: 0px;
 }
 header{
-    background-color: goldenrod;
+    background-color: rgb(189, 145, 33);
+    background-image: url(https://wallpaperaccess.com/full/386772.jpg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    background-position: center center;  
 }
 
 nav{
-    background-color: crimson;
-    
+    background-color: rgb(245, 27, 70);
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+
+}
+
+nav li {
+    display: inline;
+}
+
+nav a {
+    color: #fff;
+    margin-right: 30px;
 }
 .grid{
     display: grid;
