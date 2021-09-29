@@ -86,12 +86,17 @@ html,body
  .container-scores {
      background: url(./assets/img/image\ 1.png);
      background-size: cover;
-     padding: 0px;
+     padding: 10px;
+     
  }
 
  .container-scores .col-8 .row {
     display: inline-flex;
     width: 70em;
+ }
+
+ .container-scores .col-4 {
+     padding-left: 50px;
  }
 
 
@@ -134,10 +139,11 @@ html,body
      background: whitesmoke;
  }
 
- .container-subscribe {
-     background-color: rgb(12, 10, 10);
-     padding: 50px;
-     padding-top: 50px;
+ .container-subscribe { 
+    background-color: rgb(12, 10, 10);
+    padding: 50px;
+    padding-top: 50px;
+     
      
  }
 
@@ -149,6 +155,7 @@ html,body
      height: 100px;
      width: 100%;
      background-color: rgb(12, 10, 10);
+     column-gap: 10px;
  }
 
  .container-subscribe .col-4 {
@@ -164,6 +171,7 @@ html,body
  .container-subscribe p {
      margin: 0px;
      padding: 0px;
+     
  }
 
  .container-subscribe .btn {
@@ -206,47 +214,56 @@ html,body
  }
 
  
- @media (max-width: 575.98px) {
-    .header-container {
-        background-size: cover;
+ @media (max-width: 576px) {
+
+    html,body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
         padding: 0px;
-        height: 50rem;
+        overflow-x: hidden;
     }
-   
-    h1, p, h4 {
-        color: azure;
-        margin-block-start: 100px;
-        display: block;
+
+    .header-title {
+        margin: 60px;
+        margin-bottom: 380px;
     }
-   .header-title {
-       text-align: center !important;
-       margin-bottom: 0%;
-       margin: 250px;
-   }
-   
-   .the-story {
-       text-align: center;
-   }
 
-.timeline::before {
-   height: 67%;
-}
+    #myCarousel {
+        width: 25em !important;
+    }
 
-.the-story p {
-    margin-bottom: 1px;
-}
+    .col-md-4 offset-md-3 {
+        width: 20em;
+    }
 
+    .container-scores {
+        padding: 20px;
+    }
 
+    .container-scores .col-4 {
+        margin: 10px;
+    }
+
+    .container-scores .col-8 .row {
+        display: none;
+    }
+
+    footer {
+        padding: 8px;
+    }
+
+    .container-subscribe img {
+        width: 200px;
+    }
+
+    .container-subscribe form {
+        column-gap: 10px;
+        margin: 10px;
+    }
+
+    .container-subscribe p {
+        font-size: 5vh;
+    }
 }
  
- 
- @media (max-width: 767.98px) {
-     #myCarousel {
-         width: 200px;
-     }
-
-    .the-story {
-        position: absolute;
-    }
-
- }
