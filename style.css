@@ -90,6 +90,10 @@ html,body
      
  }
 
+ .container-scores #img {
+    margin: 0px 40px;
+ }
+
  .container-scores .col-8 .row {
     display: inline-flex;
     width: 70em;
@@ -265,5 +269,17 @@ html,body
     .container-subscribe p {
         font-size: 5vh;
     }
-}
+
+    .container-footer .col {
+        padding-left: 25px;
+    }
+
+    .timeline::before {
+        height: 63%;
+    }
+
+    .container-feature .timeline p {
+        padding-left: 20px;
+    }
+ }
  
