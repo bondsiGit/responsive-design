@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/bootstrap-5.1.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <title>Game Suit</title>
+</head>
+<body style="background-color:#9C835F;">
+    <div class="head">
+        <div class="row">
+            <div class="col-1">
+        <i class="fal fa-angle-left" style="color: #724C21; font-size: 60px;"></i>
+        <img class="suit" src="./assets/img/logo.png" alt="logo" style="width: 50px; height: 50px; margin: 0.5em;">
+            </div>
+        <div class="col-3">
+        <h1 style="font-size: 25px; color: #F9823D;  font-weight: bold;">ROCK PAPER SCISSOR</h1>
+            </div>
+        </div>
+    </div>
+    <!--------------Play--------------->
+    <div class="player">
+        <div class="container">
+            <div class="row">
+                <!-------------Human player---------->
+              <div class="col">
+                <div class="pHuman">
+                <ul>
+                    <li>
+                        <h1>PLAYER 1</h1>
+                    </li>
+                    <br>
+                    <li>
+                        <img class="suit" src="./assets/img/batu.png" alt="batu" id="batu-pHuman">
+                    </li>
+                    <br>
+                    <li>
+                        <img class="suit" src="./assets/img/gunting.png" alt="gunting" id="gunting-pHuman">
+                    </li>
+                    <br>
+                    <li>
+                        <img class="suit" src="./assets/img/kertas.png" alt="kertas" id="kertas-pHuman">
+                    </li>
+                </ul>
+                </div>    
+              </div>
+            <!-------------Keterangan Hasil--------------->
+                <div class="col">
+                    <div class="box" id="result">
+                        <p id="p" style="font-size: 144px; color: #BD0000; font-weight: bold;"> 
+                            VS
+                        </p>
+                    </div>
+                </div>
+
+                <!-- #result text: VS ; size: 144px color: #BD0000; -->
+                <!-- #winBox text: PLAYER 1 WIN color-->
+                <!-- #loseBox text: COM WIN-->
+                <!-- #draw text: DRAW -->
+            <!---------------Comp Player------------------->
+            <div class="col">
+                <div class="pComp">
+                    <ul>
+                        <li>
+                            <h1>COMP</h1>
+                        </li>
+                        <br>
+                        <li>
+                            <img class="suit" src="./assets/img/batu.png" alt="batu" id="batu-pComp">
+                        </li>
+                        <br>
+                        <li>
+                            <img class="suit" src="./assets/img/gunting.png" alt="gunting" id="gunting-pComp">
+                        </li>
+                        <br>
+                        <li>
+                            <img class="suit" src="./assets/img/kertas.png" alt="kertas" id="kertas-pComp">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="refresh">
+            <img class="suit" src="./assets/img/refresh.png" alt="refresh">
+        </div>
+    </div>
+<!----------JS------------>
+    <script src="./index.js"></script>
+</body>
+</html>

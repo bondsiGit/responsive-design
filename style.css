@@ -1,0 +1,89 @@
+.head i {
+    margin-left: 20px;
+    padding: 0px;
+}
+
+.head h1 {
+    margin-top: 15px;
+}
+
+.head .col-1 {
+    display: contents;
+}
+
+.pHuman img {
+    width: 100px;
+}
+
+.pComp img {
+    width: 100px;
+}
+
+ul li {
+    list-style: none;
+}
+
+#result p {
+    padding-top: 1em;
+}
+
+#refresh img {
+    width: 100px;
+    padding: 12px;
+    margin-left: 42em;
+    padding-bottom: 3em;
+}
+
+.green {
+    background-color: #4C9654;
+}
+
+.box {
+    width: 220px !important;
+    height: 120px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.selected-suit {
+    background-color: #C4C4C4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.winBox {
+    background-color: #4C9654;
+    height: 166px;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    transform: rotate(-28deg);
+    text-align: center;
+}
+
+.loseBox {
+    background-color: #4C9654;
+    height: 166px;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    transform: rotate(-28deg);
+    text-align: center;
+    display: table-caption;
+    margin-left: 2em;
+}
+
+.drawBox {
+    background-color: #035B0C;
+    height: 166px;
+    margin-top: 10rem;
+    margin-right: 10rem;
+    transform: rotate(-28deg);
+    text-align: center;
+    display: table-caption;
+    margin-left: 2em;
+}
+
+
+
